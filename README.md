@@ -1,11 +1,13 @@
 # Online-Book-Store-SQL-Project-PostgreSQL
-PostgreSQL Portfolio Project for Data Analyst Resume | Analyzed Online Bookstore data (Books, Customers, Orders) using 20 business questions | Skills: JOIN, GROUP BY, Subqueries, Aggregate Functions, coalesce
+PostgreSQL Portfolio Project for Data Analyst Resume | Analyzed Online Bookstore data (Books, Customers, Orders) using 20 business questions
+
 
 #Database Details:
 
 Database Name: OnlineBookstore
 Tables: Books.csv, Customers.csv, Orders.csv
 ER Diagram me 3 tables ka relation: Customers (1) -> Orders (Many), Books (1) -> Orders (Many)
+
 
 
 #solve 20 questions
@@ -27,6 +29,7 @@ ER Diagram me 3 tables ka relation: Customers (1) -> Orders (Many), Books (1) ->
 18. Show the top 3 most expensive books of 'Fantasy' Genre
 19. Find the top 3 customers who spent the most on orders
 20. Calculate the stock remaining after fulfilling all orders
+
 
 #Skills & concept used:
 PostgreSQL, pgAdmin 4, Primary Key, Foreign Key, WHERE, GROUP BY, HAVING, ORDER BY, INNER JOIN, COALESCE, COUNT(), SUM(), AVG()
